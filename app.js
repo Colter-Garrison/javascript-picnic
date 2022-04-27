@@ -3,3 +3,8 @@ soda.addEventListener('click', () => {
     soda.className = 'picked';
 });
 
+const cheese = document.getElementById('cheese');
+cheese.addEventListener('click', () => {
+    cheese.className = 'picked';
+});
+
