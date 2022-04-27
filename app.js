@@ -13,3 +13,7 @@ grapes.addEventListener('click', () => {
     grapes.className = 'picked';
 });
 
+const bread = document.getElementById('bread');
+bread.addEventListener('click', () => {
+    bread.className = 'picked';
+});
