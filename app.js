@@ -8,3 +8,8 @@ cheese.addEventListener('click', () => {
     cheese.className = 'picked';
 });
 
+const grapes = document.getElementById('grapes');
+grapes.addEventListener('click', () => {
+    grapes.className = 'picked';
+});
+
