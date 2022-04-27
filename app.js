@@ -17,3 +17,8 @@ const bread = document.getElementById('bread');
 bread.addEventListener('click', () => {
     bread.className = 'picked';
 });
+
+const watermelon = document.getElementById('watermelon');
+watermelon.addEventListener('click', () => {
+    watermelon.className = 'picked';
+});
