@@ -1,24 +1,24 @@
 const soda = document.getElementById('soda');
 soda.addEventListener('click', () => {
-    soda.className = 'picked';
+    soda.classList.toggle('picked');
 });
 
 const cheese = document.getElementById('cheese');
 cheese.addEventListener('click', () => {
-    cheese.className = 'picked';
+    cheese.classList.toggle('picked');
 });
 
 const grapes = document.getElementById('grapes');
 grapes.addEventListener('click', () => {
-    grapes.className = 'picked';
+    grapes.classList.toggle('picked');
 });
 
 const bread = document.getElementById('bread');
 bread.addEventListener('click', () => {
-    bread.className = 'picked';
+    bread.classList.toggle('picked');
 });
 
 const watermelon = document.getElementById('watermelon');
 watermelon.addEventListener('click', () => {
-    watermelon.className = 'picked';
+    watermelon.classList.toggle('picked');
 });
